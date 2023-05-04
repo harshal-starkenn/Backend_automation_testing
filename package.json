@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "async": "^3.2.4",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "geolib": "^3.3.3",
+    "http": "^0.0.1-security",
+    "jest": "^29.5.0",
+    "jsonwebtoken": "^9.0.0",
+    "mqtt": "^4.3.7",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20",
+    "semaphore-async-await": "^1.5.1",
+    "supertest": "^6.3.3"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
